@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Surya Saputra</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li id="nav-about"><a href="#about">About</a></li>
+            <li id="nav-portfolio"><a href="#portfolio">Portfolio</a></li>
+            <li id="nav-contact"><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Begin page content -->
+  <section id="welcome-section">
+    <div class="container-fluid">
+      
+      <div class="row cover top">
+        <div class="col-xs-12">
+          <div class="row">
+            <div class="col-xs-12 headline">
+              <h1 class="text-center">Hi, I'm Surya</h1>
+              <p class="lead text-center">a UI/UX Designer</p>
+            </div>
+          </div>
+          <div class="row">
+            <!-- <div class="col-xs-12 center-block text-center">
+              <a href="#about"><span id="scrollIcon" class="front-glyph glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+  </section>
+      
+      <div id="about" class="row cover">
+        <h2 class="text-center">About Me</h2>
+        <div class="row">
+          <div class="col-md-6 text-center about-info px-5">
+            <img class="img-circle text-center profile-img" src="https://avatars.githubusercontent.com/u/91824906?s=400&u=e80d5b5526c4771133d672b518bcc76582842b9f&v=4">
+            <p class="text-center">I am a student of Informatics Engineering University of Lampung. I'm currently studying UI/UX design and implementing it in several projects I've created. I hope this will be a continuation, so I can't wait to get to the point where I can jump into more interactive data visualizations and make good use of what I've learned. But for now I'm having fun learning the basics! </p>
+          </div>
+          <div class="col-md-6 about-tools">
+            <p class="text-center">Here's a few of the tools I use</p>
+              <div class="col-xs-6">
+                <ul>
+                  <li>Adobe Photoshop</li>
+                </ul>
+              </div>
+              <div class="col-xs-6">
+                <ul>
+                  <li>Figma</li>
+                </ul>
+              </div>
+            
+          </div>
+          <div class="row break">
+            <div class="col-md-6 about-last">
+              <p class="text-center">Check out my latest projects <span class="glyphicon glyphicon-arrow-down"></span></p>
+            </div>
+          </div>
+        </div> 
+      </div><!-- End #About -->
+
+    
+    <section id="projects">
+      <div id="portfolio" class="row cover">
+        <h2 class="text-center">Portfolio</h2>
+        <div class="container">
+          <div class="row portfolio-projects"> <!-- Two project row-->
+            
+            <div class="col-lg-6 project-tile"> <!--1st side project -->
+              <div class="row"> 
+                <div class="col-sm-5 text-center">
+                  <h4 class="portfolio-projects--title">Amal Kita</h4>
+                  <p class="portfolio-projects--desc">Amal Kita is a website that focuses on donating to orphanages</p>
+                  <p class="portfolio-projects--desc">Uses: Adobe Photoshop</p>
+                </div>
+                <div class="col-sm-7 text-center">
+                 <a href="https://github.com/suryainformatika19" target="_blank"><img class="portfolio-projects--image" 
+                    src="https://user-images.githubusercontent.com/91824906/135749060-7c1e944c-18d8-4cd6-8f78-5b2181f34ae4.png"></a>
+                </div>
+              </div>
+            </div>
+            <br>
+            
+            <div class="col-lg-6"> <!--2nd side project -->
+              <div class="row">
+                <div class="col-sm-7 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                  <img class="img-rounded portfolio-projects--image" src="https://user-images.githubusercontent.com/91824906/135749156-38523221-085e-40c8-91e1-1c41beb9b5d8.png">
+                </div>
+                <div class="col-sm-5 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                  <h4 class="portfolio-projects--title">U-Bike</h4>
+                  <p class="portfolio-projects--desc">U-Bike is a bicycle loan application at the University of Lampung</p>
+                  <p class="portfolio-projects--desc">Uses: Adobe Photoshop</p>                                  
+              </div>
+            </div>
+          </div><!--end Two project row-->
+
+        </div>
+        </div>
+      </div><!-- End #Portfolio -->
+    </section>
+
+      <div id="contact" class="row cover bottom">
+        <h2 class="text-center contact-header">Contact Me</h2>
+        <p class="text-center contact-email">Get in touch with me <span class="glyphicon glyphicon-arrow-right"></span> surya.saputra100619@students.unila.ac.id</p>
+        <div class="text-center contact-social-icons">
+          <p>Or find me on:</p>
+          <ul class="centered">
+            <a href="https://www.linkedin.com/in/saputra-saputra-85a992157/"><li><i class="fa fa-linkedin-square"></i> LinkedIn</li></a>
+            <a id="profile-link" target="_blank" href="https://github.com/suryainformatika19"><li><i class="fa fa-github"></i> Github</li></a>
+            <a href="https://www.instagram.com/suryaaa_sptra/"><li><i class="fa fa-instagram"></i> Instagram</li></a>
+          </ul>
+        </p>
+        
+      </div><!-- End #Contact -->
+
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+      </div>
+    </footer>
+  <script src="surya.js"> </script>
+
+  </body>
+
+</html>
